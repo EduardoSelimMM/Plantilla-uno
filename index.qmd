@@ -11,6 +11,7 @@ Este es mi sitio creado con Quarto, R y GitHub Actions.
 #| message: false
 library(dplyr)
 library(ggplot2)
+library(tidyr)
 
 head(mtcars)
 ```
