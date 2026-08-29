@@ -40,3 +40,18 @@ mtcars |>
   summarise(mpg_promedio = mean(mpg)) |>
   knitr::kable()
 ```
+
+Con otro paquete
+
+```{r}
+billboard |>
+  pivot_longer(
+    cols = starts_with("wk"),
+    names_to = "week",
+    names_prefix = "wk",
+    values_to = "rank",
+    values_drop_na = TRUE
+  )
+```
+
+
