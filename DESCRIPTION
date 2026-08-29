@@ -7,3 +7,4 @@ Imports:
     ggplot2,
     knitr,
     rmarkdown
+    tidyr
